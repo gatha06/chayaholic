@@ -8,7 +8,7 @@ body {
 
 body {
   font-family: 'Space Grotesk', sans-serif;
-  background-color: #fbf5ec; /* warm cream */
+  background: radial-gradient(circle at top left, #c99b6c 0%, #b07b4f 30%, #8c5e39 65%, #6f4929 100%);
   background-image: url('pattern.png'); /* use your second image here */
   background-repeat: repeat;
   background-size: 160px;
