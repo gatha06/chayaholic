@@ -3,7 +3,7 @@ function analyzeTea() {
   const result = document.getElementById("result");
 
   if (!input.trim()) {
-    result.textContent = "Please enter some ingredients ☕";
+    result.textContent = "Please enter some ingredients☕";
     return;
   }
 
@@ -50,9 +50,9 @@ function analyzeTea() {
 
   // strength thresholds (user: above 3 spoons per glass => strong)
   let verdict = '';
-  if (spoonsPerGlass > 3) verdict = '🔥 Strong — this is a bold brew.';
-  else if (spoonsPerGlass >= 2) verdict = '🌿 Medium — nicely balanced.';
-  else verdict = '🍯 Light — gentle and milky.';
+  if (spoonsPerGlass > 3) verdict = 'Strong — this is a bold brew.';
+  else if (spoonsPerGlass >= 2) verdict = ' Medium — nicely balanced.';
+  else verdict = 'Light — gentle and milky.';
 
   // suggestions: compute required total spoons for thresholds
   const neededForStrong = Math.ceil((3.1) * totalGlasses - spiceBoost);
