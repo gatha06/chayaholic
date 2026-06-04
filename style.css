@@ -33,12 +33,7 @@ body::after {
   z-index: 5;
   text-align: center;
   padding: 2rem;
-  transform: translateY(-30px);
-}
 
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 3rem;
   color: #4a2f18;
   margin-bottom: 0.5rem;
 }
